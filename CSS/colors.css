@@ -1,0 +1,169 @@
+
+:root {
+    --colorSystemWhite: #ffffff;    
+    --colorSystemBlack: #000000;    
+    --colorSystemInteractiveBackgroundLight: #fafdf2;    
+    --colorSystemInteractiveBackgroundLightHover: #f7fce9;    
+    --colorSystemInteractiveBackgroundLightActive: #f7fce9;    
+    --colorSystemInteractiveBackgroundNormal: #acdd22;    
+    --colorSystemInteractiveBackgroundNormalHover: #b4e038;    
+    --colorSystemInteractiveBackgroundNormalActive: #9bc71f;    
+    --colorSystemInteractiveBackgroundStrong: #81a61a;    
+    --colorSystemInteractiveBackgroundStrongAlt: #566f11;    
+    --colorSystemInteractiveTextNormal: #789b18;    
+    --colorSystemInteractiveTextNormalHover: #789b18;    
+    --colorSystemInteractiveTextNormalActive: #566f11;    
+    --colorSystemInteractiveBorderNormal: #acdd22;    
+    --colorSystemInteractiveBorderNormalHover: #9bc71f;    
+    --colorSystemInteractiveBorderNormalActive: #789b18;    
+    --colorSystemNeutralBackgroundLight: #ffffff;    
+    --colorSystemNeutralBackgroundLightHover: #f8f9f9;    
+    --colorSystemNeutralBackgroundLightAlt: #e6eaec;    
+    --colorSystemNeutralBackgroundMedium: #4d6d7b;    
+    --colorSystemNeutralBackgroundNormal: #002e42;    
+    --colorSystemNeutralBackgroundNormalHover: #00202e;    
+    --colorSystemNeutralBackgroundMuted: #e6eaec;    
+    --colorSystemNeutralTextLight: #4d6d7b;    
+    --colorSystemNeutralTextNormal: #002e42;    
+    --colorSystemNeutralTextMuted: #b3c0c6;    
+    --colorSystemNeutralBorderLight: #e6eaec;    
+    --colorSystemNeutralBorderNormal: #b3c0c6;    
+    --colorSystemNeutralBorderNormalHover: #4d6d7b;    
+    --colorSystemNeutralBorderStrong: #002e42;    
+    --colorSystemFeedbackErrorLight: #fbe4e7;    
+    --colorSystemFeedbackErrorNormal: #db1a3a;    
+    --colorSystemFeedbackErrorNormalHover: #df314e;    
+    --colorSystemFeedbackErrorNormalActive: #c51734;    
+    --colorSystemFeedbackErrorStrong: #580a17;    
+    --colorSystemFeedbackSuccessLight: #e9f6ef;    
+    --colorSystemFeedbackSuccessNormal: #27a65a;    
+    --colorSystemFeedbackSuccessStrong: #1b743f;    
+    --colorSystemFeedbackWarningLight: #fff3e2;    
+    --colorSystemFeedbackWarningNormal: #ff9c10;    
+    --colorSystemFeedbackWarningStrong: #663e06;    
+    --colorSystemAccentLight: #f2edff;    
+    --colorSystemAccentNormal: #7b47ff;    
+    --colorSystemAccentStrong: #361f70;    
+    --colorSystemTransparentDark0: #00172100;    
+    --colorSystemTransparentDark05: #0017210d;    
+    --colorSystemTransparentDark10: #0017211a;    
+    --colorSystemTransparentDark90: #001721e5;    
+    --colorSystemTransparentLight0: #ffffff00;    
+    --colorSystemTransparentLight05: #ffffff0d;    
+    --colorSystemTransparentLight10: #ffffff1a;    
+    --colorSystemTransparentLight60: #ffffff99;    
+    --colorSystemTransparentLight80: #ffffffcc;    
+    --colorSystemTransparentLight90: #ffffffcc;    
+    /* Electric green */
+    --colorBrandElectricGreen10: #f7fce9;    
+    /* Electric green */
+    --colorBrandElectricGreen50: #b4e038;    
+    /* Electric green */
+    --colorBrandElectricGreen60: #acdd22;    
+    /* Electric green */
+    --colorBrandElectricGreen70: #9bc71f;    
+    /* Electric green */
+    --colorBrandElectricGreen80: #789b18;    
+    /* Electric green */
+    --colorBrandElectricGreen90: #566f11;    
+    /* Dark Teal */
+    --colorBrandDarkTeal0: #f8f9f9;    
+    /* Dark Teal */
+    --colorBrandDarkTeal10: #e6eaec;    
+    /* Dark Teal */
+    --colorBrandDarkTeal20: #b3c0c6;    
+    /* Dark Teal */
+    --colorBrandDarkTeal30: #8097a1;    
+    /* Dark Teal */
+    --colorBrandDarkTeal40: #4d6d7b;    
+    /* Dark Teal */
+    --colorBrandDarkTeal50: #1a4355;    
+    /* Dark Teal */
+    --colorBrandDarkTeal60: #002e42;    
+    /* Dark Teal */
+    --colorBrandDarkTeal70: #00293b;    
+    /* Dark Teal */
+    --colorBrandDarkTeal80: #00202e;    
+    /* Dark Teal */
+    --colorBrandDarkTeal90: #001721;    
+    /* Teal */
+    --colorBrandTeal0: #f3f7f7;    
+    /* Teal */
+    --colorBrandTeal60: #0b6060;    
+    /* Teal */
+    --colorBrandTeal90: #023d3b;    
+    /* Purple */
+    --colorBrandPurple10: #f2edff;    
+    /* Purple */
+    --colorBrandPurple20: #f2edff;    
+    /* Purple */
+    --colorBrandPurple60: #8859ff;    
+    /* Purple */
+    --colorBrandPurple70: #7b47ff;    
+    /* Purple */
+    --colorBrandPurple90: #5632b3;    
+    /* Purple */
+    --colorBrandPurple100: #361f70;    
+    /* Danger */
+    --colorBrandRed10: #fbe4e7;    
+    --colorBrandRed20: #f8d1d8;    
+    --colorBrandRed30: #ed8d9d;    
+    --colorBrandRed40: #e65f75;    
+    /* Danger */
+    --colorBrandRed50: #df314e;    
+    /* Danger */
+    --colorBrandRed60: #db1a3a;    
+    /* Danger */
+    --colorBrandRed70: #c51734;    
+    --colorBrandRed80: #991229;    
+    --colorBrandRed90: #6e0d1d;    
+    --colorBrandGreen10: #e9f6ef;    
+    --colorBrandGreen20: #d4edde;    
+    --colorBrandGreen30: #93d3ad;    
+    --colorBrandGreen40: #68c18c;    
+    --colorBrandGreen50: #3daf6b;    
+    --colorBrandGreen60: #27a65a;    
+    --colorBrandGreen70: #239551;    
+    --colorBrandGreen80: #1b743f;    
+    --colorBrandGreen90: #14532d;    
+    --colorBrandOrange10: #fff5e7;    
+    --colorBrandOrange20: #ffebcf;    
+    --colorBrandOrange30: #ffd79f;    
+    --colorBrandOrange40: #ffb040;    
+    --colorBrandOrange50: #ffa628;    
+    --colorBrandOrange60: #ff9c10;    
+    --colorBrandOrange70: #e68c0e;    
+    --colorBrandOrange80: #b36d0b;    
+    --colorBrandOrange90: #663e06;    
+    --colorSystemNeutralBackgroundStrong: #001721;    
+    /* Electric green */
+    --colorBrandElectricGreen0: #fafdf2;    
+    /* Electric green */
+    --colorBrandElectricGreen20: #e6f5bd;    
+    /* Electric green */
+    --colorBrandElectricGreen30: #d6ee91;    
+    /* Electric green */
+    --colorBrandElectricGreen40: #c5e764;    
+    /* Teal */
+    --colorBrandTeal10: #e7efef;    
+    /* Teal */
+    --colorBrandTeal20: #b6cfcf;    
+    /* Teal */
+    --colorBrandTeal30: #85b0b0;    
+    /* Teal */
+    --colorBrandTeal40: #549090;    
+    /* Teal */
+    --colorBrandTeal50: #237070;    
+    /* Teal */
+    --colorBrandTeal70: #0b5654;    
+    /* Teal */
+    --colorBrandTeal80: #084343;    
+    /* Purple */
+    --colorBrandPurple30: #d7c8ff;    
+    /* Purple */
+    --colorBrandPurple40: #bda3ff;    
+    /* Purple */
+    --colorBrandPurple50: #a37eff;    
+    /* Purple */
+    --colorBrandPurple80: #6f40e6;    
+}
